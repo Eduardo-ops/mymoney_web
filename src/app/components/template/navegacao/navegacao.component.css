@@ -1,0 +1,19 @@
+
+.saidenav{
+    background-color:  #2F4F4F;
+    width: 150px;
+}
+
+.saidenav a{
+    color: #fff;
+    font-weight: 300;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.content{
+    padding: 16px;
+    background: #ffff;
+}

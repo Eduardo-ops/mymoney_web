@@ -1,0 +1,15 @@
+
+<mat-sidenav-container cçass="container">
+    <mat-sidenav class="saidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+
+            <a mat-list-item routerLink="/"> <i class="material-icons"> home </i> Dashboard</a>
+            <a mat-list-item routerLink="/receitas"> <i class="material-icons"> paid </i> Receitas</a>
+            <a mat-list-item routerLink="/despesas"> <i class="material-icons"> shopping_cart </i> Despesas</a>
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

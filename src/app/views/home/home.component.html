@@ -1,0 +1,38 @@
+<mat-card class="home mat-elevation-z3">
+    <mat-card-subtitle class="subtitle">Sistema para ajudar no seu controle financeiro</mat-card-subtitle>
+</mat-card>
+
+<div class="cards">
+    <div class="block">
+        <mat-card class="receitas mat-elevation-z3">
+
+            <mat-card-title class="title"> <i class="material-icons"> paid </i> R$ {{receitaTotal}}</mat-card-title>
+            <mat-card-subtitle class="financias">RECEITAS</mat-card-subtitle>
+
+        </mat-card>
+    </div>
+    <div class="block">
+        <mat-card class="despesas mat-elevation-z3">
+
+            <mat-card-title class="title"> <i class="material-icons"> shopping_cart </i> R$ {{despesaTotal}}
+            </mat-card-title>
+            <mat-card-subtitle class="financias">DESPESAS</mat-card-subtitle>
+
+        </mat-card>
+    </div>
+    <div class="block">
+        <mat-card class="balanco mat-elevation-z3">
+
+            <mat-card-title class="title"> <i class="material-icons"> tune </i> R$ {{balancoTotal}}</mat-card-title>
+            <mat-card-subtitle class="financias">BALANÇO</mat-card-subtitle>
+
+        </mat-card>
+    </div>
+</div>
+
+<mat-card class="grafico mat-elevation-z3">
+  
+        <app-grafico-categorias></app-grafico-categorias>
+        <app-grafico-balanco></app-grafico-balanco>
+
+</mat-card>

@@ -1,0 +1,20 @@
+
+<mat-card>
+    <mat-card-title>Nova receita</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Tipo" [(ngModel)]="receita.type" name="type">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Descrição" [(ngModel)]="receita.description" name="description">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="number" placeholder="Valor (R$)" [(ngModel)]="receita.value" name="value">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="date" placeholder="Data" [(ngModel)]="receita.date" name="date">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createReceita()" color="primary"> Cadastrar</button>
+    <button mat-raised-button (click)="cancelReceita()"> Cancelar</button>
+</mat-card>

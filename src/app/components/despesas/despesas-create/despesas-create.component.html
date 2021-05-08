@@ -1,0 +1,20 @@
+
+<mat-card>
+    <mat-card-title>Nova despesa</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Tipo" [(ngModel)]="despesa.type" name="type">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="text" placeholder="Descrição" [(ngModel)]="despesa.description" name="description">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="number" placeholder="Valor (R$)" [(ngModel)]="despesa.value" name="value">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="date" placeholder="Data" [(ngModel)]="despesa.date" name="date">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createDespesa()" color="primary"> Cadastrar</button>
+    <button mat-raised-button (click)="cancel()"> Cancelar</button>
+</mat-card>

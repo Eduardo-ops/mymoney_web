@@ -1,0 +1,42 @@
+
+h1{
+    font-weight: 300;
+    font-size: 1.5em;
+
+}
+
+.my{
+    color: #ADFF2F;
+}
+
+.money{
+    color: #8470FF;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background: #1C1C1C;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo{
+    max-height: 62px;
+}
+
+.title-group{
+    padding-left: 25px;
+    color: #ffff;
+    font-weight: 300;
+}
+
+.material-icons{
+    padding-right: 5px;
+    color: #ffff;
+    font-weight: 300;
+}

@@ -1,0 +1,9 @@
+#chart {
+    max-width: 380px;
+    margin: 35px auto;
+  }
+
+  h3{
+      font-weight: bolder;
+      text-align: center;
+  }
